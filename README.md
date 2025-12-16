@@ -24,7 +24,7 @@ For support, questions, or commercial licensing inquiries:
 ## Project Architecture
 
 ```mermaid
-graph TB
+graph LR
     subgraph "ChunkWise Library"
         A[Chunker] --> B[BaseChunker]
         B --> C[Strategies]
@@ -95,6 +95,7 @@ graph TB
     A --> I[Chunk Objects]
     I --> J[RAG Pipeline]
 ```
+
 
 ## Module Structure
 
